@@ -144,4 +144,5 @@ products = [
 ]
 
 build_tarballs(ARGS, name, version, [], script,
-               [Linux(:x86_64), Windows(:x86_64)], products, dependencies)
+               [Linux(:x86_64), Linux(:powerpc64le), Windows(:x86_64)],
+               products, dependencies)
